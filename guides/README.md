@@ -4,27 +4,39 @@ Complete documentation for the Intent Classification System.
 
 ## Available Guides
 
-### [Quick Start](QUICK_START.md)
+### Getting Started
+
+#### [Quick Start](QUICK_START.md)
 Get the system up and running in 5 minutes.
 - Basic installation
 - Training your first model
 - Starting the server
 - Testing predictions
 
-### [Setup Guide](SETUP_GUIDE.md)
+#### [Setup Guide](SETUP_GUIDE.md)
 Comprehensive installation and configuration guide.
 - Prerequisites and dependencies
 - Virtual environment setup
 - Configuration options
 - Troubleshooting common issues
 
-### [Usage Guide](USAGE_GUIDE.md)
+#### [Usage Guide](USAGE_GUIDE.md)
 How to use the system effectively.
 - Web interface usage
 - API integration
 - Training and retraining models
 - Self-learning features
 - Feedback system
+
+### Deployment
+
+#### [Heroku Deployment Guide](HEROKU_DEPLOYMENT.md)
+Complete guide for deploying to Heroku.
+- Quick start (5 minutes)
+- Step-by-step instructions
+- Configuration options
+- Troubleshooting
+- Automated deployment script
 
 ## Quick Navigation
 

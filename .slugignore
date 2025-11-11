@@ -1,0 +1,77 @@
+# Files to exclude from Heroku slug to reduce size
+
+# Documentation
+*.md
+!README.md
+docs/
+guides/
+
+# Tests
+tests/
+test_*.py
+*_test.py
+
+# Visualizations
+visualizations/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Development files
+.vscode/
+.idea/
+.DS_Store
+*.pyc
+__pycache__/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Development scripts
+train_model.sh
+start_dev.sh
+
+# Docker (if not using container deployment)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Large data files (keep only essential datasets)
+ml/data/raw/infra_copilot_intent_dataset_v1_1.jsonl
+ml/data/raw/infra_copilot_intent_dataset_v3.jsonl
+
+# Feedback data (will be written at runtime)
+ml/data/feedback/*.jsonl
+
+# Processed data (can be regenerated)
+ml/data/processed/
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+*.cache
+
+# Virtual environment (Heroku creates its own)
+venv/
+env/
+.venv/
+
+# OS files
+Thumbs.db
+.DS_Store
+

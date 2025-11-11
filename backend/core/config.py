@@ -14,9 +14,9 @@ class Settings(BaseSettings):
     
     # Application
     APP_NAME: str = "Intent Classification System"
-    DEBUG: bool = True
+    DEBUG: bool = False
     HOST: str = "0.0.0.0"
-    PORT: int = 8000
+    PORT: int = int(os.getenv("PORT", "8000"))
     
     # CORS
     CORS_ORIGINS: List[str] = ["*"]

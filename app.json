@@ -1,0 +1,40 @@
+{
+  "name": "Intent Classification System",
+  "description": "ML-based Intent Classification System for Infrastructure Management",
+  "repository": "https://github.com/yourusername/intent_classification",
+  "keywords": ["python", "machine-learning", "fastapi", "nlp", "intent-classification"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "DEBUG": {
+      "description": "Enable debug mode",
+      "value": "false",
+      "required": false
+    },
+    "LANGCHAIN_TRACING_V2": {
+      "description": "Enable LangSmith tracing",
+      "value": "false",
+      "required": false
+    },
+    "LANGCHAIN_API_KEY": {
+      "description": "LangSmith API key for observability",
+      "required": false
+    },
+    "LANGCHAIN_PROJECT": {
+      "description": "LangSmith project name",
+      "value": "intent-classification",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": []
+}
+

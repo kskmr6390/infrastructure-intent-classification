@@ -81,6 +81,23 @@ docker-compose logs -f
 docker-compose down
 ```
 
+### Heroku Deployment
+
+```bash
+# Quick deployment
+heroku create your-app-name
+git push heroku main
+heroku ps:scale web=1
+heroku open
+```
+
+📖 **Deployment Guide:** [guides/HEROKU_DEPLOYMENT.md](guides/HEROKU_DEPLOYMENT.md)
+
+Or use the automated script:
+```bash
+./deploy_to_heroku.sh
+```
+
 ## Configuration
 
 Edit `config.yaml` to configure the system:
