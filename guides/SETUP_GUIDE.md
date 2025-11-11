@@ -409,19 +409,21 @@ After successful setup:
    - Add custom intents
 
 4. **Read the docs:**
-   - `PROJECT_README.md` - Overview
-   - `backend/README.md` - API docs
-   - `ml/README.md` - ML docs
+   - [Quick Start Guide](QUICK_START.md) - Quick reference
+   - [Usage Guide](USAGE_GUIDE.md) - How to use the system
+   - `backend/README.md` - API documentation
+   - `ml/README.md` - ML implementation details
 
 ## Getting Help
 
 If you encounter issues:
 
-1. Check this guide
-2. Check `MIGRATION_GUIDE.md` if upgrading
-3. Review error logs in `logs/`
-4. Check API docs at `/docs`
-5. Open an issue on GitHub
+1. Check this guide's troubleshooting section
+2. Review the [Usage Guide](USAGE_GUIDE.md) for common patterns
+3. Check error logs in `logs/` directory
+4. Visit API documentation at http://localhost:8000/docs
+5. Review component-specific READMEs in `backend/`, `frontend/`, and `ml/`
+6. Open an issue on GitHub
 
 ## Success Checklist
 

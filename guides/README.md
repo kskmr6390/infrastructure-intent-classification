@@ -1,78 +1,48 @@
-# Documentation Guides
+# Documentation
 
-Essential documentation for the Intent Classification System.
+Complete documentation for the Intent Classification System.
 
-## 📚 Available Guides
+## Available Guides
 
-### Quick Start
-- **[QUICK_START.md](QUICK_START.md)** - Get running in 5 minutes ⚡
-  - Installation
-  - Training
-  - Running the server
+### [Quick Start](QUICK_START.md)
+Get the system up and running in 5 minutes.
+- Basic installation
+- Training your first model
+- Starting the server
+- Testing predictions
 
-### Installation & Setup
-- **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Complete installation guide 📦
-  - Prerequisites
-  - Step-by-step setup
-  - Configuration
-  - Troubleshooting
+### [Setup Guide](SETUP_GUIDE.md)
+Comprehensive installation and configuration guide.
+- Prerequisites and dependencies
+- Virtual environment setup
+- Configuration options
+- Troubleshooting common issues
 
-### Using the System
-- **[USAGE_GUIDE.md](USAGE_GUIDE.md)** - How to use the system 💡
-  - Web interface
-  - API usage
-  - Training models
-  - Self-learning features
+### [Usage Guide](USAGE_GUIDE.md)
+How to use the system effectively.
+- Web interface usage
+- API integration
+- Training and retraining models
+- Self-learning features
+- Feedback system
 
-### Migration & Upgrades
-- **[MIGRATION_GUIDE.md](MIGRATION_GUIDE.md)** - Upgrading from Flask version 🔄
-  - What changed
-  - Import updates
-  - Migration steps
-  - Backward compatibility
+## Quick Navigation
 
-### Model Configuration
-- **[MODEL_SELECTOR_GUIDE.md](MODEL_SELECTOR_GUIDE.md)** - Choosing the right model 🎯
-  - Model comparison
-  - Performance metrics
-  - Use case recommendations
+**New Users:** Start with [Quick Start](QUICK_START.md) → [Usage Guide](USAGE_GUIDE.md)
 
-### LLM Setup
-- **[LLM_SETUP.md](LLM_SETUP.md)** - Setting up LLM models 🤖
-  - LLM configuration
-  - Model options
-  - Training LLM models
-  - Fine-tuning
+**Developers:** Read [Setup Guide](SETUP_GUIDE.md) → [Usage Guide](USAGE_GUIDE.md)
 
-## 🎯 Recommended Reading Order
+## Component Documentation
 
-### New Users
-1. [QUICK_START.md](QUICK_START.md) - Get started immediately
-2. [USAGE_GUIDE.md](USAGE_GUIDE.md) - Learn to use the system
-3. [MODEL_SELECTOR_GUIDE.md](MODEL_SELECTOR_GUIDE.md) - Choose your model
+For detailed technical documentation, see:
+- **Backend**: [../backend/README.md](../backend/README.md)
+- **Frontend**: [../frontend/README.md](../frontend/README.md)
+- **ML Models**: [../ml/README.md](../ml/README.md)
+- **Data Handling**: [../ml/data/docs/](../ml/data/docs/)
+- **Traditional ML**: [../ml/traditional_ml/docs/](../ml/traditional_ml/docs/)
+- **LLM Models**: [../ml/llm/docs/](../ml/llm/docs/)
 
-### Developers
-1. [SETUP_GUIDE.md](SETUP_GUIDE.md) - Detailed setup
-2. [USAGE_GUIDE.md](USAGE_GUIDE.md) - System usage
-3. [LLM_SETUP.md](LLM_SETUP.md) - Advanced configuration
-
-### Upgrading Users
-1. [MIGRATION_GUIDE.md](MIGRATION_GUIDE.md) - Understand changes
-2. [QUICK_START.md](QUICK_START.md) - Verify new setup
-
-## 📖 Other Documentation
-
-### Component Documentation
-- **Frontend**: [`../frontend/README.md`](../frontend/README.md)
-- **Backend API**: [`../backend/README.md`](../backend/README.md)
-- **Machine Learning**: [`../ml/README.md`](../ml/README.md)
-
-### Detailed Technical Docs
-- **Data Handling**: [`../ml/data/docs/`](../ml/data/docs/)
-- **Traditional ML**: [`../ml/traditional_ml/docs/`](../ml/traditional_ml/docs/)
-- **LLM Models**: [`../ml/llm/docs/`](../ml/llm/docs/)
-
-## 🚀 Quick Commands
+## Quick Commands
 
 ```bash
 # Train a model
@@ -83,20 +53,17 @@ Essential documentation for the Intent Classification System.
 
 # Start development server
 ./start_dev.sh
+
+# View API documentation
+open http://localhost:8000/docs
 ```
 
-## 🔗 Links
-
-- **Main README**: [`../README.md`](../README.md)
-- **API Documentation**: http://localhost:8000/docs (when running)
-- **Interactive API**: http://localhost:8000/redoc (when running)
-
-## 💡 Getting Help
+## Getting Help
 
 1. Check the relevant guide above
-2. Visit API docs at `/docs` endpoint
-3. Check component READMEs
-4. Review troubleshooting in Setup Guide
+2. Visit API documentation at http://localhost:8000/docs
+3. Review component-specific READMEs
+4. Check troubleshooting section in [Setup Guide](SETUP_GUIDE.md)
 
 ---
 

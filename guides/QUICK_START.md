@@ -67,15 +67,15 @@ print(response.json())
 ## Project Structure
 
 ```
-📁 intent_classification/
-├── 🎨 frontend/        # Web UI
-├── 🚀 backend/         # FastAPI API
-├── 🤖 ml/              # ML Models
-│   ├── data/           # Datasets
-│   ├── model/          # Saved models
+intent_classification/
+├── frontend/        # Web UI
+├── backend/         # FastAPI API
+├── ml/              # ML Models
+│   ├── data/        # Datasets
+│   ├── model/       # Saved models
 │   ├── traditional_ml/ # SVM, RF
-│   └── llm/            # LLM models
-└── 📄 config.yaml      # Configuration
+│   └── llm/         # LLM models
+└── config.yaml      # Configuration
 ```
 
 ## Common Commands
@@ -133,21 +133,16 @@ docker-compose down
 
 ## Next Steps
 
-1. ✅ **Explore**: Try different queries
-2. 📚 **Learn**: Read `PROJECT_README.md`
-3. ⚙️ **Configure**: Edit `config.yaml`
-4. 🎯 **Train**: Add your own data
-5. 🚀 **Deploy**: Use Docker
+1. **Explore**: Try different queries
+2. **Configure**: Edit `config.yaml` for your needs
+3. **Train**: Add your own training data
+4. **Deploy**: Use Docker for production
 
 ## Documentation
 
-| Document | Purpose |
-|----------|---------|
-| `README.md` | Quick reference |
-| `QUICK_START.md` | This file |
-| `PROJECT_README.md` | Complete guide |
-| `SETUP_GUIDE.md` | Detailed setup |
-| `MIGRATION_GUIDE.md` | Upgrading guide |
+- [Setup Guide](SETUP_GUIDE.md) - Detailed installation and configuration
+- [Usage Guide](USAGE_GUIDE.md) - Complete usage instructions and API examples
+- [Main README](../README.md) - Project overview
 
 ## API Endpoints
 
@@ -162,12 +157,12 @@ docker-compose down
 
 ## Features
 
-- ✅ Multiple ML models (Traditional + LLM)
-- ✅ Modern FastAPI backend
-- ✅ Auto-generated API docs
-- ✅ Self-learning from feedback
-- ✅ Docker support
-- ✅ Production ready
+- Multiple ML models (Traditional + LLM)
+- Modern FastAPI backend
+- Auto-generated API docs
+- Self-learning from feedback
+- Docker support
+- Production ready
 
 ## Performance
 
@@ -189,13 +184,10 @@ Try these in the web interface:
 
 ## Support
 
-- 📖 Documentation: All `.md` files
-- 🔍 API Docs: http://localhost:8000/docs
-- 💬 Issues: GitHub Issues
+- Documentation: See [guides](.) folder
+- API Docs: http://localhost:8000/docs
+- Issues: GitHub Issues
 
 ---
 
-**Happy classifying! 🎉**
-
-Made with FastAPI ⚡ | PyTorch 🔥 | Scikit-learn 🧠
-
+**Tech Stack:** FastAPI | PyTorch | Scikit-learn

@@ -1,25 +1,8 @@
 # Intent Classification System
 
-> **🚀 Production-Ready ML System with FastAPI Backend**
+A production-ready machine learning system for classifying user intents in infrastructure management queries using FastAPI backend and multiple ML models.
 
-A modern machine learning system for classifying user intents in infrastructure management queries.
-
-## 📁 Project Structure
-
-```
-intent_classification/
-├── frontend/           # 🎨 Web Interface
-├── backend/            # 🚀 FastAPI REST API
-├── ml/                 # 🤖 Machine Learning
-│   ├── data/          # Data handling
-│   ├── model/         # Saved models
-│   ├── traditional_ml/  # SVM, RF models
-│   └── llm/           # LLM models
-├── guides/            # 📚 Documentation
-└── config.yaml        # ⚙️ Configuration
-```
-
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Make scripts executable
@@ -32,58 +15,48 @@ chmod +x *.sh
 ./start.sh
 ```
 
-**Access at:** http://localhost:8000  
-**API Docs:** http://localhost:8000/docs
+**Web Interface:** http://localhost:8000  
+**API Documentation:** http://localhost:8000/docs
 
-## ✨ Features
+## Project Structure
 
-- ✅ **Multiple ML Models**: Traditional (SVM, RF) + LLM-based
-- ✅ **FastAPI Backend**: Modern, async, auto-documented API
-- ✅ **Self-Learning**: Improves from user feedback
-- ✅ **LangSmith Observability**: Track predictions and feedback in real-time
-- ✅ **Docker Ready**: Containerized deployment
-- ✅ **Production Ready**: Logging, monitoring, error handling
+```
+intent_classification/
+├── backend/            # FastAPI REST API
+│   ├── api/           # API endpoints
+│   ├── core/          # Core services
+│   └── database/      # Database layer
+├── frontend/          # Web interface
+├── ml/                # Machine learning
+│   ├── data/         # Data handling
+│   ├── llm/          # LLM models
+│   ├── traditional_ml/ # SVM, RF models
+│   └── model/        # Saved models
+├── guides/           # Documentation
+└── config.yaml       # Configuration
+```
 
-## 📚 Documentation
+## Features
 
-### Essential Guides
+- **Multiple ML Models**: Traditional (SVM, Random Forest) and LLM-based classifiers
+- **FastAPI Backend**: Modern async API with automatic documentation
+- **Self-Learning**: Continuous improvement from user feedback
+- **LangSmith Integration**: Real-time observability and monitoring
+- **Docker Support**: Containerized deployment
+- **Session Management**: Multi-session chat support
 
-| Guide | Description | When to Use |
-|-------|-------------|-------------|
-| [**Quick Start**](guides/QUICK_START.md) | Get running in 5 minutes | ⚡ First time setup |
-| [**Setup Guide**](guides/SETUP_GUIDE.md) | Detailed installation | 📦 Complete installation |
-| [**Usage Guide**](guides/USAGE_GUIDE.md) | How to use the system | 💡 Daily usage |
-| [**Migration Guide**](guides/MIGRATION_GUIDE.md) | Flask to FastAPI upgrade | 🔄 Upgrading |
-| [**Model Selector**](guides/MODEL_SELECTOR_GUIDE.md) | Choose the right model | 🎯 Model selection |
-| [**LLM Setup**](guides/LLM_SETUP.md) | LLM configuration | 🤖 Advanced models |
-| [**LangSmith Observability**](guides/LANGSMITH_OBSERVABILITY.md) | Monitor & debug predictions | 🔍 Observability |
-
-**📖 View all guides:**
-- **Markdown:** See [`guides/`](guides/) folder
-- **Web UI:** http://localhost:8000/guides/ (when server running)
-- **Index Page:** http://localhost:8000/guides/index.html
-
-### Component Documentation
-
-- **Frontend**: [`frontend/README.md`](frontend/README.md) - Web interface
-- **Backend**: [`backend/README.md`](backend/README.md) - API documentation
-- **ML**: [`ml/README.md`](ml/README.md) - Machine learning
-- **Data**: [`ml/data/docs/`](ml/data/docs/) - Data handling
-- **Traditional ML**: [`ml/traditional_ml/docs/`](ml/traditional_ml/docs/) - SVM, RF models
-- **LLM**: [`ml/llm/docs/`](ml/llm/docs/) - LLM models
-
-## 🎯 Training Models
+## Training Models
 
 ```bash
 # Interactive training script
 ./train_model.sh
 
-# Or train specific models
-python -m ml.traditional_ml.train  # Fast (1-2 min)
-python -m ml.llm.train_llm         # Accurate (5-10 min)
+# Or train specific models directly
+python -m ml.traditional_ml.train  # Traditional ML (1-2 min)
+python -m ml.llm.train_llm         # LLM model (5-10 min)
 ```
 
-## 🖥️ Running the System
+## Running the System
 
 ### Local Development
 
@@ -93,41 +66,38 @@ python -m ml.llm.train_llm         # Accurate (5-10 min)
 
 # Development mode (auto-reload)
 ./start_dev.sh
-
-# Or with uvicorn directly
-uvicorn backend.main:app --reload
 ```
 
 ### Docker Deployment
 
 ```bash
-# Start with Docker Compose
+# Start services
 docker-compose up -d
 
 # View logs
 docker-compose logs -f
 
-# Stop
+# Stop services
 docker-compose down
 ```
 
-## 🔧 Configuration
+## Configuration
 
-**Main Config:** [`config.yaml`](config.yaml)
+Edit `config.yaml` to configure the system:
+
 ```yaml
 model:
   type: "tfidf_svm"  # Options: tfidf_svm, llm, hybrid
+  
 data:
   dataset_path: "ml/data/raw/infra_copilot_intent_dataset_v2.jsonl"
+  
+observability:
+  enabled: true
+  langsmith_enabled: false
 ```
 
-**Environment:** `.env` (optional)
-```bash
-DEBUG=true
-PORT=8000
-```
-
-## 📊 API Endpoints
+## API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -137,8 +107,9 @@ PORT=8000
 | `/api/chat` | POST | Intent prediction |
 | `/api/sessions` | GET/POST/PUT/DELETE | Session management |
 | `/api/feedback` | POST | Submit feedback |
+| `/api/observability/*` | GET | Observability data |
 
-## 🧪 Testing
+## Testing the API
 
 ### Health Check
 ```bash
@@ -169,34 +140,42 @@ print(f"Intent: {result['prediction']['predicted_intent']}")
 print(f"Confidence: {result['prediction']['confidence']:.2%}")
 ```
 
-## 📈 Model Performance
+## Model Performance
 
 | Model | Accuracy | Speed | Memory | Training Time |
 |-------|----------|-------|--------|---------------|
-| TF-IDF + SVM | 85-90% | ⚡⚡⚡ | Low | 1-2 min |
-| Sentence-T | 88-92% | ⚡⚡ | Low | 5-10 min |
-| Fine-tuned LLM | 90-95% | ⚡ | High | 30-60 min |
-| Hybrid | 88-93% | ⚡⚡ | Medium | Varies |
+| TF-IDF + SVM | 85-90% | Fast | Low | 1-2 min |
+| Sentence Transformer | 88-92% | Medium | Low | 5-10 min |
+| Fine-tuned LLM | 90-95% | Slow | High | 30-60 min |
+| Hybrid | 88-93% | Medium | Medium | Varies |
 
-## 🔄 Self-Learning
+## Documentation
 
-The system continuously improves through user feedback:
+### User Guides
 
-1. User corrects predictions
-2. System collects feedback
-3. Retrains when threshold reached
-4. Deploys improved model
+| Guide | Description |
+|-------|-------------|
+| [Quick Start](guides/QUICK_START.md) | Get running in 5 minutes |
+| [Setup Guide](guides/SETUP_GUIDE.md) | Detailed installation instructions |
+| [Usage Guide](guides/USAGE_GUIDE.md) | How to use the system |
 
-Feedback stored in: `ml/data/feedback/`
+### Component Documentation
 
-## 📦 Requirements
+- **Backend API**: [backend/README.md](backend/README.md)
+- **Frontend**: [frontend/README.md](frontend/README.md)
+- **ML Models**: [ml/README.md](ml/README.md)
+- **Traditional ML**: [ml/traditional_ml/docs/](ml/traditional_ml/docs/)
+- **LLM Models**: [ml/llm/docs/](ml/llm/docs/)
+- **Data Handling**: [ml/data/docs/](ml/data/docs/)
 
-- **Python**: 3.9 or higher
-- **RAM**: 2GB minimum (4GB recommended)
-- **Disk**: 1GB free space
-- **Optional**: Docker for containerized deployment
+## Requirements
 
-## 🐛 Troubleshooting
+- Python 3.9+
+- 2GB RAM minimum (4GB recommended)
+- 1GB disk space
+- Docker (optional, for containerized deployment)
+
+## Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
@@ -206,81 +185,35 @@ Feedback stored in: `ml/data/feedback/`
 | Out of memory | Reduce `batch_size` in config.yaml |
 | Module not found | `pip install -r requirements.txt` |
 
-See [**Setup Guide**](guides/SETUP_GUIDE.md) for detailed troubleshooting.
+See the [Setup Guide](guides/SETUP_GUIDE.md) for detailed troubleshooting.
 
-## 📖 Learning Path
+## Self-Learning System
 
-1. **New User?** → [Quick Start Guide](guides/QUICK_START.md) ⚡
-2. **Need Setup Details?** → [Setup Guide](guides/SETUP_GUIDE.md) 📦
-3. **Want to Use It?** → [Usage Guide](guides/USAGE_GUIDE.md) 💡
-4. **Choosing Model?** → [Model Selector](guides/MODEL_SELECTOR_GUIDE.md) 🎯
-5. **Upgrading?** → [Migration Guide](guides/MIGRATION_GUIDE.md) 🔄
-6. **API Details?** → Visit http://localhost:8000/docs 📚
+The system improves continuously through user feedback:
 
-## 🎓 Example Usage
+1. User provides feedback on predictions
+2. Feedback is collected in `ml/data/feedback/`
+3. System retrains when feedback threshold is reached
+4. Improved model is automatically deployed
 
-### Web Interface
-1. Open http://localhost:8000
-2. Create a new session
-3. Type your query
-4. Get intent prediction with confidence
-5. Provide feedback to improve
+## Observability
 
-### REST API
-```python
-import requests
+View prediction metrics and feedback:
 
-# Create session
-session = requests.post(
-    "http://localhost:8000/api/sessions",
-    json={"session_name": "My Session"}
-).json()
+```bash
+# View observability dashboard
+python view_observability.py
 
-session_id = session['session']['session_id']
-
-# Get prediction
-prediction = requests.post(
-    "http://localhost:8000/api/chat",
-    json={
-        "session_id": session_id,
-        "message": "Check server health status"
-    }
-).json()
-
-print(f"Intent: {prediction['prediction']['predicted_intent']}")
-print(f"Confidence: {prediction['prediction']['confidence']:.2%}")
+# Access via API
+curl http://localhost:8000/api/observability/summary
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Update documentation
-6. Submit a pull request
-
-## 📄 License
+## License
 
 [Your License Here]
 
-## 🆘 Support
-
-- **Documentation**: [`guides/`](guides/) folder
-- **API Docs**: http://localhost:8000/docs (when running)
-- **Issues**: GitHub Issues
-- **Component Docs**: Check README files in subdirectories
-
-## 🔗 Quick Links
-
-- 📚 [All Guides](guides/)
-- 🎨 [Frontend Docs](frontend/README.md)
-- 🚀 [Backend Docs](backend/README.md)
-- 🤖 [ML Docs](ml/README.md)
-- 📊 [API Reference](http://localhost:8000/docs)
-
 ---
 
-**Made with** FastAPI ⚡ | PyTorch 🔥 | Scikit-learn 🧠
+**Tech Stack:** FastAPI | PyTorch | Scikit-learn | Transformers
 
-**Ready to start?** Run `./train_model.sh` then `./start.sh` 🚀
+**Ready to start?** Run `./train_model.sh` then `./start.sh`
