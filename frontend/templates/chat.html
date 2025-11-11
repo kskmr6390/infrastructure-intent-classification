@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intent Classification Chat</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-brain"></i> Intent Classifier</h2>
+                <button class="btn btn-primary btn-new-chat" onclick="createNewSession()">
+                    <i class="fas fa-plus"></i> New Chat
+                </button>
+            </div>
+            
+            <div class="sessions-container" id="sessionsContainer">
+                <div class="loading">Loading sessions...</div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <button class="btn btn-secondary" onclick="showStatistics()">
+                    <i class="fas fa-chart-bar"></i> Statistics
+                </button>
+            </div>
+        </div>
+        
+        <!-- Main Chat Area -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="chat-header">
+                <button class="btn-icon" onclick="toggleSidebar()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="session-title" id="sessionTitle">
+                    Select or create a session
+                </div>
+                <button class="btn-icon" onclick="showSessionOptions()">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+            </div>
+            
+            <!-- Messages Area -->
+            <div class="messages-container" id="messagesContainer">
+                <div class="welcome-screen">
+                    <div class="welcome-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h1>Intent Classification Assistant</h1>
+                    <p>Ask me about network infrastructure queries and I'll identify the intent!</p>
+                    <div class="example-queries">
+                        <h3>Example queries:</h3>
+                        <div class="example-item" onclick="sendExampleQuery(this)">
+                            <i class="fas fa-network-wired"></i>
+                            Is the interface Gi1/0/1 up and operational?
+                        </div>
+                        <div class="example-item" onclick="sendExampleQuery(this)">
+                            <i class="fas fa-chart-line"></i>
+                            Show CPU and memory utilization for router R1
+                        </div>
+                        <div class="example-item" onclick="sendExampleQuery(this)">
+                            <i class="fas fa-shield-alt"></i>
+                            Find IDS/IPS alerts related to IP 10.1.1.5
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Input Area -->
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <textarea 
+                        id="messageInput" 
+                        placeholder="Type your infrastructure query here..."
+                        rows="1"
+                        onkeydown="handleKeyDown(event)"
+                    ></textarea>
+                    <button class="btn-send" id="sendButton" onclick="sendMessage()">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="input-hint">
+                    Press Enter to send, Shift + Enter for new line
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Feedback Modal -->
+    <div class="modal" id="feedbackModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Provide Feedback</h3>
+                <button class="btn-close" onclick="closeFeedbackModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Query:</strong> <span id="feedbackQuery"></span></p>
+                <p><strong>Predicted Intent:</strong> <span id="feedbackPredicted"></span></p>
+                <p><strong>Confidence:</strong> <span id="feedbackConfidence"></span></p>
+                
+                <div class="form-group">
+                    <label for="correctIntent">Correct Intent:</label>
+                    <input type="text" id="correctIntent" class="form-control" 
+                           placeholder="Enter the correct intent">
+                </div>
+                
+                <div class="form-actions">
+                    <button class="btn btn-secondary" onclick="closeFeedbackModal()">
+                        Cancel
+                    </button>
+                    <button class="btn btn-primary" onclick="submitFeedback()">
+                        Submit Feedback
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Statistics Modal -->
+    <div class="modal" id="statisticsModal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h3>System Statistics</h3>
+                <button class="btn-close" onclick="closeStatisticsModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="statisticsContent">
+                <div class="loading">Loading statistics...</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
+

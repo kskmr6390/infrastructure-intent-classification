@@ -1,0 +1,1000 @@
+{query: 'Can you pull interface error stats for access-sw-7 Gi0/1 in HQ?', intent: Intent.interface_errors}
+{query: 'Why is latency between branch-ny and CloudRegion elevated since 03:00?', intent: Intent. 'latency_analysis}
+{query: 'Run a traceroute from DC2 to db.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp1 up and stable?', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for DC-Backbone (require logs and timestamps)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on Internet-Primary in the last 30 minutes?', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN20?', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on edge-router-2', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-DC1-DC2 (require logs and timestamps)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on fw-dc1', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from branch-ny to db.example.com is failing', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for transit-A in the past hour', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for edge-router-2 Te1/1 in DC2?', intent: Intent.interface_errors}
+{query: 'Why is latency between HQ and DC2 elevated since 00:05?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from branch-ny to db.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with transit-A up and stable?', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for Internet-Primary', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on DC-Backbone in the last 30 minutes? (require logs and timestamps)', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN500?', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on fw-hq-1', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-HQ-Branch', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on access-sw-7', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from DC2 to portal.example.com is failing', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for transit-A in the past hour (instance 2)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for router-core1 Te1/1 in HQ?', intent: Intent.interface_errors}
+{query: 'Why is latency between DC1 and HQ elevated since 22:45?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from DC1 to db.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp1 up and stable? (require logs and timestamps)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for MPLS-Link-1', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on MPLS-Link-1 in the last 30 minutes?', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN20? (instance 2)', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on switch-dist3', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-HQ-Branch (instance 2)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on access-sw-7 (instance 2)', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from DC2 to auth.example.com is failing', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for transit-A in the past hour (instance 3)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for switch-dist3 eth0 in DC2?', intent: Intent.interface_errors}
+{query: 'Why is latency between HQ and CloudRegion elevated since 02:15? (require logs and timestamps)', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from branch-ny to db.example.com and show hops (instance 2)', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp1 up and stable? (instance 2)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for MPLS-Link-1 (require logs and timestamps)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on Internet-Primary in the last 30 minutes? (instance 2)', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN500? (instance 2)', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on access-sw-7', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-DC1-DC2', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on router-core1 (require logs and timestamps)', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from DC1 to db.example.com is failing (require logs and timestamps)', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp1 in the past hour (require logs and timestamps)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for switch-dist3 Gi0/1 in HQ?', intent: Intent.interface_errors}
+{query: 'Why is latency between HQ and HQ elevated since 00:05?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from HQ to auth.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with transit-A up and stable? (instance 2)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for Internet-Primary (instance 2)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on DC-Backbone in the last 30 minutes? (require logs and timestamps) (instance 2)', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN100?', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on switch-dist3 (instance 2)', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-DC1-DC2 (instance 2)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on switch-dist3', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from branch-ny to db.example.com is failing (instance 2)', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp1 in the past hour', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for switch-dist3 eth0 in branch-sg?', intent: Intent.interface_errors}
+{query: 'Why is latency between HQ and DC1 elevated since 02:15?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from HQ to portal.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp1 up and stable? (instance 3)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for DC-Backbone', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on VPN-HQ-Branch in the last 30 minutes?', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN500? (instance 3)', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on access-sw-7 (instance 2)', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-HQ-Branch (instance 3)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on fw-hq-1', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from DC1 to portal.example.com is failing', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp1 in the past hour (instance 2)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for router-core1 eth0 in DC2?', intent: Intent.interface_errors}
+{query: 'Why is latency between branch-sg and DC1 elevated since 22:45?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from branch-ny to auth.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp1 up and stable? (require logs and timestamps) (instance 2)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for MPLS-Link-1 (instance 2)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on DC-Backbone in the last 30 minutes?', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN10?', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on router-core1', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-DC1-DC2 (require logs and timestamps) (instance 2)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on router-core1', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from HQ to auth.example.com is failing', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp2 in the past hour', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for switch-dist3 Gi0/1 in DC2?', intent: Intent.interface_errors}
+{query: 'Why is latency between branch-ny and DC1 elevated since 22:45?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from DC1 to portal.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp2 up and stable?', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for MPLS-Link-1 (require logs and timestamps) (instance 2)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on DC-Backbone in the last 30 minutes? (require logs and timestamps) (instance 3)', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN20? (instance 3)', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on access-sw-7 (instance 3)', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-DC1-DC2 (instance 3)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on fw-hq-1 (instance 2)', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from HQ to auth.example.com is failing (instance 2)', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp2 in the past hour (instance 2)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for access-sw-7 Te1/1 in DC2?', intent: Intent.interface_errors}
+{query: 'Why is latency between branch-ny and CloudRegion elevated since 02:15?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from DC1 to auth.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp1 up and stable? (instance 4)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for Internet-Primary (instance 3)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on Internet-Primary in the last 30 minutes? (instance 3)', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN20? (instance 4)', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on edge-router-2 (instance 2)', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-HQ-Branch (instance 4)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on fw-hq-1 (instance 3)', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from branch-sg to portal.example.com is failing', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp1 in the past hour (require logs and timestamps) (instance 2)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for edge-router-2 Gi0/2 in HQ?', intent: Intent.interface_errors}
+{query: 'Why is latency between HQ and DC1 elevated since 00:05?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from branch-ny to auth.example.com and show hops (instance 2)', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with transit-A up and stable? (instance 3)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for Internet-Primary (instance 4)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on MPLS-Link-1 in the last 30 minutes? (require logs and timestamps)', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN10? (instance 2)', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on edge-router-2 (instance 3)', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-HQ-Branch (require logs and timestamps)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on fw-dc1 (instance 2)', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from HQ to db.example.com is failing', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp2 in the past hour (require logs and timestamps)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for switch-dist3 Gi0/2 in HQ?', intent: Intent.interface_errors}
+{query: 'Why is latency between HQ and CloudRegion elevated since 14:30?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from branch-sg to db.example.com and show hops', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp2 up and stable? (instance 2)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for Internet-Primary (instance 5)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on VPN-HQ-Branch in the last 30 minutes? (instance 2)', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN100? (instance 2)', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on edge-router-2 (instance 4)', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-HQ-Branch (instance 5)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on router-core1 (instance 2)', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from DC2 to portal.example.com is failing (require logs and timestamps)', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp2 in the past hour (instance 3)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for access-sw-7 eth0 in DC1?', intent: Intent.interface_errors}
+{query: 'Why is latency between branch-ny and DC1 elevated since 00:05?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from HQ to auth.example.com and show hops (instance 2)', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp1 up and stable? (instance 5)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for Internet-Primary (instance 6)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on VPN-HQ-Branch in the last 30 minutes? (instance 3)', intent: Intent.latency_analysis}
+{query: 'Which hosts are top talkers on VLAN100? (require logs and timestamps)', intent: Intent.traffic_analysis}
+{query: 'Check for duplex/mdu mismatches on switch-dist3 (instance 3)', intent: Intent.interface_errors}
+{query: 'Verify VPN tunnel health for VPN-DC1-DC2 (instance 4)', intent: Intent.vpn_status_check}
+{query: 'Provide recent syslog entries related to interface flaps on fw-dc1 (instance 3)', intent: Intent.log_analysis}
+{query: 'Confirm if DNS resolution from branch-sg to auth.example.com is failing', intent: Intent.dns_troubleshooting}
+{query: 'Show BGP route advertisement changes for isp2 in the past hour (instance 4)', intent: Intent.routing_query}
+{query: 'Can you pull interface error stats for router-core1 Gi0/2 in branch-ny?', intent: Intent.interface_errors}
+{query: 'Why is latency between DC1 and HQ elevated since 14:30?', intent: Intent.latency_analysis}
+{query: 'Run a traceroute from HQ to portal.example.com and show hops (instance 2)', intent: Intent.routing_diagnostic}
+{query: 'Is the BGP session with isp1 up and stable? (instance 6)', intent: Intent.routing_issue}
+{query: 'Show current bandwidth utilization for DC-Backbone (instance 2)', intent: Intent.bandwidth_monitoring}
+{query: 'Are there any packet drops on Internet-Primary in the last 30 minutes? (instance 4)', intent: Intent.latency_analysis}
+{query: 'Why did CPU usage on app-server-01 exceed 93% at 14:30?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for batch-01 over the last 2 hours (require logs and timestamps)', intent: Intent.server_status_check}
+{query: 'Is process java running on cache-01, and what's its memory footprint? (require logs and timestamps)', intent: Intent.process_check}
+{query: 'Pull kernel logs from app-server-01 for OOM or panic events', intent: Intent.log_analysis}
+{query: 'When was app-server-02 last rebooted and who initiated it?', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on batch-01', intent: Intent.server_performance}
+{query: 'Are there pending security updates on batch-01 that require reboot?', intent: Intent.compliance_check}
+{query: 'Verify service tomcat is healthy on db-master-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on app-server-02', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on db-master-01', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for cache-01 from 03:00 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on db-master-01 over last 24 hours?', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-01 exceed 75% at 14:30?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for app-server-01 over the last 2 hours', intent: Intent.server_status_check}
+{query: 'Is process java running on batch-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from db-master-01 for OOM or panic events', intent: Intent.log_analysis}
+{query: 'When was app-server-01 last rebooted and who initiated it?', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on app-server-01 (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-02 that require reboot?', intent: Intent.compliance_check}
+{query: 'Verify service postgres is healthy on db-master-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on db-master-01', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on db-master-01 (instance 2)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for app-server-01 from 14:30 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on db-master-01 over last 24 hours? (instance 2)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on db-master-01 exceed 88% at 00:05?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for db-master-01 over the last 2 hours', intent: Intent.server_status_check}
+{query: 'Is process nginx running on batch-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from cache-01 for OOM or panic events', intent: Intent.log_analysis}
+{query: 'When was db-master-01 last rebooted and who initiated it?', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on app-server-01', intent: Intent.server_performance}
+{query: 'Are there pending security updates on cache-01 that require reboot?', intent: Intent.compliance_check}
+{query: 'Verify service postgres is healthy on app-server-02 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on db-master-01 (instance 2)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on app-server-01', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for cache-01 from 22:45 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on batch-01 over last 24 hours?', intent: Intent.server_performance}
+{query: 'Why did CPU usage on cache-01 exceed 73% at 22:45?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for app-server-02 over the last 2 hours', intent: Intent.server_status_check}
+{query: 'Is process redis-server running on app-server-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from db-master-01 for OOM or panic events (instance 2)', intent: Intent.log_analysis}
+{query: 'When was batch-01 last rebooted and who initiated it?', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on db-master-01', intent: Intent.server_performance}
+{query: 'Are there pending security updates on batch-01 that require reboot? (instance 2)', intent: Intent.compliance_check}
+{query: 'Verify service tomcat is healthy on db-master-01 and respond to health checks (instance 2)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on batch-01', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on db-master-01 (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for batch-01 from 03:00 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on batch-01 over last 24 hours? (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on cache-01 exceed 85% at 02:15?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for db-master-01 over the last 2 hours (instance 2)', intent: Intent.server_status_check}
+{query: 'Is process java running on cache-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from app-server-02 for OOM or panic events', intent: Intent.log_analysis}
+{query: 'When was app-server-01 last rebooted and who initiated it? (instance 2)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on cache-01', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-02 that require reboot? (instance 2)', intent: Intent.compliance_check}
+{query: 'Verify service nginx is healthy on batch-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on app-server-01', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on db-master-01 (instance 3)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for app-server-01 from 14:30 to now (instance 2)', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on db-master-01 over last 24 hours? (instance 3)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-02 exceed 82% at 02:15?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for batch-01 over the last 2 hours', intent: Intent.server_status_check}
+{query: 'Is process java running on batch-01, and what's its memory footprint? (instance 2)', intent: Intent.process_check}
+{query: 'Pull kernel logs from app-server-02 for OOM or panic events (require logs and timestamps)', intent: Intent.log_analysis}
+{query: 'When was app-server-01 last rebooted and who initiated it? (require logs and timestamps)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on batch-01 (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on db-master-01 that require reboot?', intent: Intent.compliance_check}
+{query: 'Verify service redis is healthy on db-master-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on db-master-01 (instance 3)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on batch-01', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for db-master-01 from 00:05 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on app-server-01 over last 24 hours?', intent: Intent.server_performance}
+{query: 'Why did CPU usage on batch-01 exceed 74% at 14:30?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for app-server-02 over the last 2 hours (instance 2)', intent: Intent.server_status_check}
+{query: 'Is process redis-server running on app-server-02, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from batch-01 for OOM or panic events', intent: Intent.log_analysis}
+{query: 'When was app-server-02 last rebooted and who initiated it? (instance 2)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on db-master-01 (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on db-master-01 that require reboot? (instance 2)', intent: Intent.compliance_check}
+{query: 'Verify service postgres is healthy on db-master-01 and respond to health checks (instance 2)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on cache-01', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on app-server-01 (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for app-server-01 from 02:15 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on db-master-01 over last 24 hours? (instance 4)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-01 exceed 73% at 03:00?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for cache-01 over the last 2 hours', intent: Intent.server_status_check}
+{query: 'Is process postgres running on batch-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from cache-01 for OOM or panic events (instance 2)', intent: Intent.log_analysis}
+{query: 'When was db-master-01 last rebooted and who initiated it? (instance 2)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on batch-01 (instance 2)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-01 that require reboot?', intent: Intent.compliance_check}
+{query: 'Verify service postgres is healthy on app-server-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on cache-01 (instance 2)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on batch-01 (instance 2)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for app-server-02 from 00:05 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on app-server-02 over last 24 hours?', intent: Intent.server_performance}
+{query: 'Why did CPU usage on cache-01 exceed 84% at 22:45?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for app-server-02 over the last 2 hours (instance 3)', intent: Intent.server_status_check}
+{query: 'Is process mysqld running on cache-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from cache-01 for OOM or panic events (instance 3)', intent: Intent.log_analysis}
+{query: 'When was app-server-02 last rebooted and who initiated it? (instance 3)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on app-server-02 (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-02 that require reboot? (instance 3)', intent: Intent.compliance_check}
+{query: 'Verify service postgres is healthy on app-server-01 and respond to health checks (instance 2)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on db-master-01 (instance 4)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on db-master-01 (instance 4)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for app-server-01 from 00:05 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on cache-01 over last 24 hours?', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-01 exceed 70% at 02:15?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for app-server-01 over the last 2 hours (instance 2)', intent: Intent.server_status_check}
+{query: 'Is process gunicorn running on db-master-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from app-server-02 for OOM or panic events (instance 2)', intent: Intent.log_analysis}
+{query: 'When was app-server-01 last rebooted and who initiated it? (instance 3)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on cache-01 (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on db-master-01 that require reboot? (require logs and timestamps)', intent: Intent.compliance_check}
+{query: 'Verify service postgres is healthy on app-server-01 and respond to health checks (instance 3)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on batch-01 (instance 2)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on cache-01', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for app-server-01 from 02:15 to now (instance 2)', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on db-master-01 over last 24 hours? (instance 5)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on db-master-01 exceed 70% at 00:05? (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for cache-01 over the last 2 hours (instance 2)', intent: Intent.server_status_check}
+{query: 'Is process mysqld running on batch-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from cache-01 for OOM or panic events (instance 4)', intent: Intent.log_analysis}
+{query: 'When was db-master-01 last rebooted and who initiated it? (instance 3)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on db-master-01 (instance 2)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-01 that require reboot? (instance 2)', intent: Intent.compliance_check}
+{query: 'Verify service redis is healthy on cache-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on app-server-01 (instance 2)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on app-server-02', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for cache-01 from 00:05 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on batch-01 over last 24 hours? (instance 2)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-01 exceed 82% at 03:00?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for app-server-02 over the last 2 hours (instance 4)', intent: Intent.server_status_check}
+{query: 'Is process java running on app-server-02, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from batch-01 for OOM or panic events (instance 2)', intent: Intent.log_analysis}
+{query: 'When was db-master-01 last rebooted and who initiated it? (instance 4)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on batch-01 (instance 3)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-01 that require reboot? (instance 3)', intent: Intent.compliance_check}
+{query: 'Verify service redis is healthy on db-master-01 and respond to health checks (instance 2)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on app-server-01 (instance 3)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on cache-01 (instance 2)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for cache-01 from 03:00 to now (instance 2)', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on batch-01 over last 24 hours? (instance 3)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-01 exceed 73% at 00:05?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for app-server-01 over the last 2 hours (instance 3)', intent: Intent.server_status_check}
+{query: 'Is process nginx running on batch-01, and what's its memory footprint? (require logs and timestamps)', intent: Intent.process_check}
+{query: 'Pull kernel logs from cache-01 for OOM or panic events (require logs and timestamps)', intent: Intent.log_analysis}
+{query: 'When was cache-01 last rebooted and who initiated it?', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on app-server-02', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-02 that require reboot? (instance 4)', intent: Intent.compliance_check}
+{query: 'Verify service tomcat is healthy on db-master-01 and respond to health checks (instance 3)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on cache-01 (instance 3)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on db-master-01 (instance 5)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for app-server-01 from 03:00 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on cache-01 over last 24 hours? (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on cache-01 exceed 81% at 14:30?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for cache-01 over the last 2 hours (instance 3)', intent: Intent.server_status_check}
+{query: 'Is process postgres running on app-server-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from cache-01 for OOM or panic events (instance 5)', intent: Intent.log_analysis}
+{query: 'When was db-master-01 last rebooted and who initiated it? (instance 5)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on cache-01 (instance 2)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on batch-01 that require reboot? (instance 3)', intent: Intent.compliance_check}
+{query: 'Verify service nginx is healthy on cache-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on app-server-01 (instance 4)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on app-server-01 (instance 2)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for batch-01 from 14:30 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on cache-01 over last 24 hours? (instance 2)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on db-master-01 exceed 73% at 02:15? (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for db-master-01 over the last 2 hours (instance 3)', intent: Intent.server_status_check}
+{query: 'Is process mysqld running on db-master-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from db-master-01 for OOM or panic events (instance 3)', intent: Intent.log_analysis}
+{query: 'When was app-server-01 last rebooted and who initiated it? (require logs and timestamps) (instance 2)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on batch-01 (instance 4)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-01 that require reboot? (instance 4)', intent: Intent.compliance_check}
+{query: 'Verify service tomcat is healthy on batch-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on app-server-02 (instance 2)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on db-master-01 (instance 6)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for db-master-01 from 22:45 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on db-master-01 over last 24 hours? (instance 6)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on db-master-01 exceed 79% at 14:30? (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for batch-01 over the last 2 hours (instance 2)', intent: Intent.server_status_check}
+{query: 'Is process postgres running on db-master-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from app-server-01 for OOM or panic events (instance 2)', intent: Intent.log_analysis}
+{query: 'When was cache-01 last rebooted and who initiated it? (instance 2)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on app-server-01 (instance 2)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on db-master-01 that require reboot? (require logs and timestamps) (instance 2)', intent: Intent.compliance_check}
+{query: 'Verify service tomcat is healthy on db-master-01 and respond to health checks (instance 4)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on app-server-02 (instance 3)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on app-server-02 (instance 2)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for db-master-01 from 22:45 to now (instance 2)', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on app-server-02 over last 24 hours? (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-02 exceed 79% at 03:00?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for db-master-01 over the last 2 hours (instance 4)', intent: Intent.server_status_check}
+{query: 'Is process gunicorn running on app-server-02, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from app-server-01 for OOM or panic events (instance 3)', intent: Intent.log_analysis}
+{query: 'When was cache-01 last rebooted and who initiated it? (require logs and timestamps)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on app-server-02 (instance 2)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on batch-01 that require reboot? (require logs and timestamps)', intent: Intent.compliance_check}
+{query: 'Verify service nginx is healthy on app-server-01 and respond to health checks', intent: Intent.service_check}
+{query: 'Show top CPU consumers on db-master-01 (instance 5)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on app-server-02 (instance 3)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for cache-01 from 03:00 to now (require logs and timestamps)', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on db-master-01 over last 24 hours? (instance 7)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on db-master-01 exceed 80% at 22:45?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for batch-01 over the last 2 hours (instance 3)', intent: Intent.server_status_check}
+{query: 'Is process java running on db-master-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from batch-01 for OOM or panic events (instance 3)', intent: Intent.log_analysis}
+{query: 'When was db-master-01 last rebooted and who initiated it? (require logs and timestamps)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on db-master-01 (instance 3)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on app-server-01 that require reboot? (instance 5)', intent: Intent.compliance_check}
+{query: 'Verify service redis is healthy on db-master-01 and respond to health checks (instance 3)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on app-server-02 (instance 4)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on batch-01 (instance 3)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for app-server-02 from 14:30 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on app-server-01 over last 24 hours? (instance 2)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-02 exceed 70% at 03:00?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for db-master-01 over the last 2 hours (instance 5)', intent: Intent.server_status_check}
+{query: 'Is process postgres running on app-server-02, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from batch-01 for OOM or panic events (require logs and timestamps)', intent: Intent.log_analysis}
+{query: 'When was app-server-01 last rebooted and who initiated it? (instance 4)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on db-master-01 (instance 4)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on batch-01 that require reboot? (instance 4)', intent: Intent.compliance_check}
+{query: 'Verify service nginx is healthy on batch-01 and respond to health checks (require logs and timestamps)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on cache-01 (instance 4)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on db-master-01 (require logs and timestamps) (instance 2)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for batch-01 from 22:45 to now', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on app-server-01 over last 24 hours? (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on app-server-02 exceed 72% at 00:05? (require logs and timestamps)', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for batch-01 over the last 2 hours (instance 4)', intent: Intent.server_status_check}
+{query: 'Is process postgres running on app-server-02, and what's its memory footprint? (instance 2)', intent: Intent.process_check}
+{query: 'Pull kernel logs from batch-01 for OOM or panic events (require logs and timestamps) (instance 2)', intent: Intent.log_analysis}
+{query: 'When was app-server-02 last rebooted and who initiated it? (instance 4)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on app-server-02 (instance 3)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on batch-01 that require reboot? (require logs and timestamps) (instance 2)', intent: Intent.compliance_check}
+{query: 'Verify service nginx is healthy on cache-01 and respond to health checks (instance 2)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on cache-01 (require logs and timestamps)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on batch-01 (instance 4)', intent: Intent.server_performance}
+{query: 'Collect systemd journal entries for cache-01 from 03:00 to now (require logs and timestamps) (instance 2)', intent: Intent.log_analysis}
+{query: 'Is swap usage trending upward on app-server-01 over last 24 hours? (instance 3)', intent: Intent.server_performance}
+{query: 'Why did CPU usage on batch-01 exceed 72% at 03:00?', intent: Intent.server_performance}
+{query: 'Show memory and swap utilization for db-master-01 over the last 2 hours (instance 6)', intent: Intent.server_status_check}
+{query: 'Is process nginx running on db-master-01, and what's its memory footprint?', intent: Intent.process_check}
+{query: 'Pull kernel logs from cache-01 for OOM or panic events (instance 6)', intent: Intent.log_analysis}
+{query: 'When was cache-01 last rebooted and who initiated it? (instance 3)', intent: Intent.server_status_check}
+{query: 'Check disk I/O wait and top IO consumers on db-master-01 (instance 5)', intent: Intent.server_performance}
+{query: 'Are there pending security updates on cache-01 that require reboot? (instance 2)', intent: Intent.compliance_check}
+{query: 'Verify service nginx is healthy on batch-01 and respond to health checks (instance 2)', intent: Intent.service_check}
+{query: 'Show top CPU consumers on cache-01 (instance 5)', intent: Intent.server_status_check}
+{query: 'Investigate high context-switch rate observed on app-server-01 (instance 3)', intent: Intent.server_performance}
+{query: 'Is VM vm-worker-04 in project finance-prod currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for redis in project infra-prod (require logs and timestamps)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-worker-04 or gclb-1 in project-alpha', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for finance-prod over the last 24 hours?', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between us-east1 and europe-west1 affecting {app}', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-beta impacting service accounts?', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-app-01 approaching its limit?', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-worker-04 taken in the last 7 days', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer gclb-1 is returning 5xx for backend backend-b', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-beta', intent: Intent.cloud_quota}
+{query: 'Check if API calls to redis were rate limited in the past hour', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-db-02 in project infra-prod currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for nginx in project project-beta', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-app-01 or alb-1 in finance-prod', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for finance-prod over the last 24 hours? (instance 2)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between asia-south1 and europe-west1 affecting {app}', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (require logs and timestamps)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in finance-prod impacting service accounts?', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-worker-04 approaching its limit?', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-cache-03 taken in the last 7 days', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-alpha', intent: Intent.cloud_quota}
+{query: 'Check if API calls to nginx were rate limited in the past hour', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-app-01 in project finance-prod currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for nginx in project finance-prod', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-worker-04 or gclb-1 in finance-prod', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for finance-prod over the last 24 hours? (instance 3)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between europe-west1 and asia-south1 affecting {app}', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-alpha impacting service accounts?', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-worker-04 approaching its limit? (instance 2)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-cache-03 taken in the last 7 days (instance 2)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer gclb-1 is returning 5xx for backend backend-a', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-beta (instance 2)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to nginx were rate limited in the past hour (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-cache-03 in project infra-prod currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for postgres in project project-beta', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-cache-03 or alb-1 in infra-prod', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-alpha over the last 24 hours?', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between us-east1 and asia-south1 affecting {app}', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (instance 2)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-beta impacting service accounts? (instance 2)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-cache-03 approaching its limit?', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-worker-04 taken in the last 7 days (instance 2)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer gclb-1 is returning 5xx for backend backend-a (instance 2)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for infra-prod', intent: Intent.cloud_quota}
+{query: 'Check if API calls to tomcat were rate limited in the past hour', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-worker-04 in project finance-prod currently running and healthy? (instance 2)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for redis in project infra-prod', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-cache-03 or alb-1 in project-alpha', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for finance-prod over the last 24 hours? (instance 4)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between asia-south1 and us-east1 affecting {app}', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (instance 2)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-beta impacting service accounts? (instance 3)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-worker-04 approaching its limit? (instance 3)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-worker-04 taken in the last 7 days (require logs and timestamps)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 2)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-alpha (instance 2)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to tomcat were rate limited in the past hour (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-db-02 in project project-beta currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for postgres in project project-alpha (require logs and timestamps)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-app-01 or gclb-1 in infra-prod', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-alpha over the last 24 hours? (require logs and timestamps)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between europe-west1 and us-east1 affecting {app}', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (instance 3)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-beta impacting service accounts? (instance 4)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-db-02 approaching its limit?', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-cache-03 taken in the last 7 days (instance 3)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer gclb-1 is returning 5xx for backend backend-a (instance 3)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for finance-prod', intent: Intent.cloud_quota}
+{query: 'Check if API calls to nginx were rate limited in the past hour (instance 3)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-worker-04 in project project-beta currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for nginx in project infra-prod', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-worker-04 or gclb-1 in finance-prod (instance 2)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for finance-prod over the last 24 hours? (instance 5)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between europe-west1 and asia-south1 affecting {app} (instance 2)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (instance 4)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-beta impacting service accounts? (instance 5)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-app-01 approaching its limit? (instance 2)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-cache-03 taken in the last 7 days (instance 4)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-a', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for infra-prod (instance 2)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to tomcat were rate limited in the past hour (instance 3)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-cache-03 in project project-beta currently running and healthy? (require logs and timestamps)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for nginx in project finance-prod (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-cache-03 or alb-1 in finance-prod (require logs and timestamps)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for finance-prod over the last 24 hours? (instance 6)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between asia-south1 and europe-west1 affecting {app} (instance 2)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (instance 5)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-beta impacting service accounts? (instance 6)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-cache-03 approaching its limit? (instance 2)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-app-01 taken in the last 7 days', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 3)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for finance-prod (instance 2)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to nginx were rate limited in the past hour (require logs and timestamps)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-worker-04 in project project-alpha currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for tomcat in project project-alpha', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-app-01 or gclb-1 in finance-prod (require logs and timestamps)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-alpha over the last 24 hours? (instance 2)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between europe-west1 and asia-south1 affecting {app} (instance 3)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (instance 6)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-alpha impacting service accounts? (instance 2)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-cache-03 approaching its limit? (instance 3)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-cache-03 taken in the last 7 days (instance 5)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 4)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for finance-prod (instance 3)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to nginx were rate limited in the past hour (require logs and timestamps) (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-cache-03 in project infra-prod currently running and healthy? (instance 2)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for tomcat in project project-beta', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-cache-03 or alb-1 in finance-prod', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for infra-prod over the last 24 hours?', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between europe-west1 and asia-south1 affecting {app} (instance 4)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (instance 3)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-alpha impacting service accounts? (instance 3)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-worker-04 approaching its limit? (instance 4)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-db-02 taken in the last 7 days (require logs and timestamps)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 5)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for finance-prod (require logs and timestamps)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to tomcat were rate limited in the past hour (instance 4)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-db-02 in project project-beta currently running and healthy? (instance 2)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for tomcat in project project-beta (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-cache-03 or gclb-1 in finance-prod', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for infra-prod over the last 24 hours? (instance 2)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between asia-south1 and asia-south1 affecting {app} (require logs and timestamps)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (instance 7)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-beta impacting service accounts? (instance 7)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-cache-03 approaching its limit? (instance 4)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-app-01 taken in the last 7 days (instance 2)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-a (instance 2)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-alpha (instance 3)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to nginx were rate limited in the past hour (instance 4)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-db-02 in project project-beta currently running and healthy? (instance 3)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for postgres in project project-alpha', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-db-02 or alb-1 in project-beta', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for infra-prod over the last 24 hours? (instance 3)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between us-east1 and asia-south1 affecting {app} (instance 2)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (instance 4)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-alpha impacting service accounts? (instance 4)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-worker-04 approaching its limit? (instance 5)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-cache-03 taken in the last 7 days (instance 6)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 6)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-alpha (instance 4)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to nginx were rate limited in the past hour (instance 5)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-db-02 in project project-alpha currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for nginx in project project-beta (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-db-02 or gclb-1 in project-beta (require logs and timestamps)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-alpha over the last 24 hours? (instance 3)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between europe-west1 and asia-south1 affecting {app} (instance 5)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (require logs and timestamps)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-alpha impacting service accounts? (instance 5)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-app-01 approaching its limit? (instance 3)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-cache-03 taken in the last 7 days (instance 7)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-a (instance 3)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for finance-prod (instance 4)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to nginx were rate limited in the past hour (instance 6)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-db-02 in project finance-prod currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for postgres in project infra-prod', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-app-01 or alb-1 in project-alpha', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-alpha over the last 24 hours? (instance 4)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between asia-south1 and europe-west1 affecting {app} (instance 3)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (instance 5)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in infra-prod impacting service accounts?', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-cache-03 approaching its limit? (instance 5)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-app-01 taken in the last 7 days (require logs and timestamps)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 7)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for finance-prod (instance 5)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to redis were rate limited in the past hour (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-app-01 in project finance-prod currently running and healthy? (instance 2)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for tomcat in project infra-prod', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-cache-03 or gclb-1 in finance-prod (instance 2)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for finance-prod over the last 24 hours? (instance 7)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between us-east1 and asia-south1 affecting {app} (instance 3)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (instance 6)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-beta impacting service accounts? (instance 8)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-app-01 approaching its limit? (instance 4)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-cache-03 taken in the last 7 days (instance 8)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 8)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-alpha (require logs and timestamps)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to redis were rate limited in the past hour (instance 3)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-cache-03 in project project-alpha currently running and healthy? (require logs and timestamps)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for tomcat in project finance-prod', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-worker-04 or gclb-1 in finance-prod (instance 3)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for finance-prod over the last 24 hours? (instance 8)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between asia-south1 and europe-west1 affecting {app} (instance 4)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (instance 7)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in infra-prod impacting service accounts? (require logs and timestamps)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-cache-03 approaching its limit? (instance 6)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-app-01 taken in the last 7 days (instance 3)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 9)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-beta (instance 3)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to redis were rate limited in the past hour (instance 4)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-db-02 in project project-beta currently running and healthy? (instance 4)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for redis in project project-beta', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-worker-04 or gclb-1 in project-alpha (instance 2)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-beta over the last 24 hours?', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between us-east1 and us-east1 affecting {app}', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (instance 8)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-alpha impacting service accounts? (instance 6)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-app-01 approaching its limit? (require logs and timestamps)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-db-02 taken in the last 7 days', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer gclb-1 is returning 5xx for backend backend-a (instance 4)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-beta (instance 4)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to tomcat were rate limited in the past hour (instance 5)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-app-01 in project project-beta currently running and healthy?', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for redis in project project-alpha (require logs and timestamps)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-app-01 or gclb-1 in infra-prod (instance 2)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-beta over the last 24 hours? (instance 2)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between us-east1 and europe-west1 affecting {app} (instance 2)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (instance 8)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-alpha impacting service accounts? (instance 7)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-db-02 approaching its limit? (require logs and timestamps)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-worker-04 taken in the last 7 days (instance 3)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer gclb-1 is returning 5xx for backend backend-a (instance 5)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-alpha (instance 5)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to tomcat were rate limited in the past hour (instance 6)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-db-02 in project infra-prod currently running and healthy? (require logs and timestamps)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for nginx in project infra-prod (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-worker-04 or gclb-1 in project-alpha (require logs and timestamps)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for infra-prod over the last 24 hours? (instance 4)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between europe-west1 and europe-west1 affecting {app}', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-worker and reasons for scale actions (instance 9)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in infra-prod impacting service accounts? (instance 2)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-worker-04 approaching its limit? (require logs and timestamps)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-app-01 taken in the last 7 days (instance 4)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-a (instance 4)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-beta (instance 5)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to tomcat were rate limited in the past hour (instance 7)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-worker-04 in project finance-prod currently running and healthy? (instance 3)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for postgres in project infra-prod (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-db-02 or alb-1 in project-beta (instance 2)', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-beta over the last 24 hours? (require logs and timestamps)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between europe-west1 and asia-south1 affecting {app} (instance 6)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (require logs and timestamps) (instance 2)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in project-alpha impacting service accounts? (instance 8)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-app-01 approaching its limit? (instance 5)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-app-01 taken in the last 7 days (instance 5)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer alb-1 is returning 5xx for backend backend-b (instance 10)', intent: Intent.load_balancer_check}
+{query: 'Show quota/limit alerts for project-alpha (instance 6)', intent: Intent.cloud_quota}
+{query: 'Check if API calls to tomcat were rate limited in the past hour (instance 8)', intent: Intent.cloud_api_issue}
+{query: 'Is VM vm-worker-04 in project project-alpha currently running and healthy? (require logs and timestamps)', intent: Intent.cloud_vm_status}
+{query: 'Show recent API error rates for tomcat in project infra-prod (instance 2)', intent: Intent.cloud_api_issue}
+{query: 'List firewall rules affecting vm-cache-03 or gclb-1 in project-beta', intent: Intent.cloud_firewall_check}
+{query: 'What is the network egress for project-alpha over the last 24 hours? (instance 5)', intent: Intent.cloud_network_monitor}
+{query: 'Check inter-region latency between us-east1 and europe-west1 affecting {app} (require logs and timestamps)', intent: Intent.latency_analysis}
+{query: 'Show autoscaling events for asg-web and reasons for scale actions (instance 9)', intent: Intent.cloud_autoscale}
+{query: 'Are any IAM policy changes in infra-prod impacting service accounts? (instance 3)', intent: Intent.cloud_security}
+{query: 'Is disk IOPS for VM vm-app-01 approaching its limit? (instance 6)', intent: Intent.cloud_storage}
+{query: 'Verify snapshots exist for VM vm-worker-04 taken in the last 7 days (instance 4)', intent: Intent.backup_status}
+{query: 'Confirm if Cloud Load Balancer gclb-1 is returning 5xx for backend backend-a (instance 6)', intent: Intent.load_balancer_check}
+{query: 'Show failed SSH login attempts for user alice across servers in the last 24h', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 198.51.100.12 in the past 6 hours', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for db.example.com expiring within 14 days?', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (require logs and timestamps)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN100?', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for batch-01', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (require logs and timestamps)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 198.51.100.12', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in finance-prod?', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user alice across servers in the last 24h (instance 2)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 203.0.113.5 in the past 6 hours', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for auth.example.com expiring within 14 days?', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h?', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 2)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 2)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN20? (require logs and timestamps)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-02', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (require logs and timestamps) (instance 2)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 203.0.113.5 (require logs and timestamps)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in finance-prod? (instance 2)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user svc_monitor across servers in the last 24h', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 203.0.113.5 in the past 6 hours (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for portal.example.com expiring within 14 days?', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 2)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 3)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 3)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN500?', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for db-master-01 (require logs and timestamps)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours?', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 10.1.2.3', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in project-alpha?', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user svc_backup across servers in the last 24h', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 192.0.2.45 in the past 6 hours', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for auth.example.com expiring within 14 days? (instance 2)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 3)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 4)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 4)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN20?', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 4)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for batch-01 (require logs and timestamps)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 2)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 192.0.2.45', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in infra-prod?', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user netops_admin across servers in the last 24h', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 198.51.100.12 in the past 6 hours (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for auth.example.com expiring within 14 days? (require logs and timestamps)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 4)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 5)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 5)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN10?', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 5)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for db-master-01', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 3)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 192.0.2.45 (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in finance-prod? (require logs and timestamps)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user svc_monitor across servers in the last 24h (instance 2)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 10.1.2.3 in the past 6 hours', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for auth.example.com expiring within 14 days? (instance 3)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 5)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 6)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 6)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN20? (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 6)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-02 (instance 2)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 4)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 203.0.113.5', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in project-beta?', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user bob across servers in the last 24h', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 203.0.113.5 in the past 6 hours (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for db.example.com expiring within 14 days? (instance 2)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 6)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 7)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (require logs and timestamps)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN20? (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 7)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-02 (require logs and timestamps)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (require logs and timestamps) (instance 3)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 192.0.2.45 (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in infra-prod? (instance 2)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user svc_backup across servers in the last 24h (instance 2)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 203.0.113.5 in the past 6 hours (instance 4)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for portal.example.com expiring within 14 days? (instance 2)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 7)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 8)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 7)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN500? (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 8)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-01', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 5)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 192.0.2.45 (instance 4)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in infra-prod? (require logs and timestamps)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user svc_backup across servers in the last 24h (instance 3)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 198.51.100.12 in the past 6 hours (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for portal.example.com expiring within 14 days? (instance 3)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 8)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 9)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 8)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN100? (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 9)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-02 (instance 3)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 6)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 203.0.113.5 (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in project-alpha? (instance 2)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user svc_monitor across servers in the last 24h (instance 3)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 192.0.2.45 in the past 6 hours (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for portal.example.com expiring within 14 days? (instance 4)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 9)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 10)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 9)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN20? (instance 4)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 10)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for cache-01', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 7)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 198.51.100.12 (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in infra-prod? (instance 3)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user bob across servers in the last 24h (instance 2)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 198.51.100.12 in the past 6 hours (instance 4)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for auth.example.com expiring within 14 days? (require logs and timestamps) (instance 2)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 10)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 11)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 10)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN10? (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 11)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-01 (instance 2)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 8)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 192.0.2.45 (instance 5)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in project-beta? (instance 2)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user alice across servers in the last 24h (instance 3)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 198.51.100.12 in the past 6 hours (instance 5)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for portal.example.com expiring within 14 days? (instance 5)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 11)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 12)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 11)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN500? (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (require logs and timestamps)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for batch-01 (instance 2)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 9)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 10.1.2.3 (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in finance-prod? (instance 3)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user alice across servers in the last 24h (require logs and timestamps)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 203.0.113.5 in the past 6 hours (instance 5)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for portal.example.com expiring within 14 days? (instance 6)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (require logs and timestamps) (instance 2)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 13)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 12)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN10? (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 12)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-01 (instance 3)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 10)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 198.51.100.12 (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in infra-prod? (instance 4)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user netops_admin across servers in the last 24h (instance 2)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 10.1.2.3 in the past 6 hours (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for auth.example.com expiring within 14 days? (instance 4)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 12)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 14)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 13)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN10? (instance 4)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 13)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-01 (instance 4)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (instance 11)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 198.51.100.12 (instance 4)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in project-beta? (instance 3)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user svc_monitor across servers in the last 24h (instance 4)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 198.51.100.12 in the past 6 hours (require logs and timestamps)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for auth.example.com expiring within 14 days? (instance 5)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 13)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 15)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 14)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN100? (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 14)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for app-server-02 (instance 4)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (require logs and timestamps) (instance 4)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 192.0.2.45 (instance 6)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in infra-prod? (instance 5)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user alice across servers in the last 24h (instance 4)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 198.51.100.12 in the past 6 hours (require logs and timestamps) (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for portal.example.com expiring within 14 days? (instance 7)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 14)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 16)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (require logs and timestamps) (instance 2)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN20? (instance 5)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (instance 15)', intent: Intent.security_alert_investigation}
+{query: 'Report critical CVE detections from vulnerability scanner for batch-01 (require logs and timestamps) (instance 2)', intent: Intent.vulnerability_management}
+{query: 'Has NAC quarantined any endpoint in the last 24 hours? (require logs and timestamps) (instance 5)', intent: Intent.security_incident}
+{query: 'Provide timeline for detected brute-force attempts on SSH from 198.51.100.12 (instance 5)', intent: Intent.security_alert_investigation}
+{query: 'Which SSO sessions failed for service accounts in finance-prod? (instance 4)', intent: Intent.user_access_issue}
+{query: 'Show failed SSH login attempts for user alice across servers in the last 24h (instance 5)', intent: Intent.security_incident}
+{query: 'List IDS/IPS alerts related to IP 192.0.2.45 in the past 6 hours (instance 3)', intent: Intent.security_alert_investigation}
+{query: 'Is TLS certificate for portal.example.com expiring within 14 days? (instance 8)', intent: Intent.certificate_monitoring}
+{query: 'Which hosts have outbound connections to suspicious IPs in last 24h? (instance 15)', intent: Intent.threat_hunting}
+{query: 'Provide MFA failure counts for user accounts over the last week (instance 17)', intent: Intent.security_incident}
+{query: 'List accounts with recent privilege escalation events (instance 15)', intent: Intent.user_access_issue}
+{query: 'Is there a spike in port scanning activity targeting VLAN100? (instance 4)', intent: Intent.security_alert_investigation}
+{query: 'Show firewall hits matching known malicious IPs for the past 48 hours (require logs and timestamps) (instance 2)', intent: Intent.security_alert_investigation}
+{query: 'Show devices non-compliant with baseline in the last audit window', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (require logs and timestamps)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled?', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across infra-prod and services', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region}', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in finance-prod?', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (require logs and timestamps)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in project-alpha? (require logs and timestamps)', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 2)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 2)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across project-beta and services', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 2)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in finance-prod? (instance 2)', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 2)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 2)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in project-beta?', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 2)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (instance 2)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 3)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 2)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 3)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across project-beta and services (instance 2)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (require logs and timestamps)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in finance-prod? (instance 3)', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 3)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 2)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 3)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in infra-prod?', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 3)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (require logs and timestamps)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 4)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (require logs and timestamps) (instance 2)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (require logs and timestamps)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across finance-prod and services', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 3)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in project-alpha?', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 4)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 3)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 4)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in finance-prod?', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 4)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (instance 3)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 5)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (require logs and timestamps) (instance 3)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 4)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across finance-prod and services (instance 2)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 4)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in project-alpha? (instance 2)', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 5)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 4)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 5)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in infra-prod? (instance 2)', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (require logs and timestamps)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (require logs and timestamps) (instance 2)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (require logs and timestamps)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 3)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 5)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across project-beta and services (instance 3)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 5)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in project-beta?', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 6)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 5)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 6)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in project-alpha?', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 5)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (instance 4)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 6)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 4)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 6)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across project-alpha and services (require logs and timestamps)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 6)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in infra-prod? (require logs and timestamps)', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 7)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 6)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 7)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in finance-prod? (instance 2)', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 6)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (instance 5)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 7)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 5)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 7)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across finance-prod and services (instance 3)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 7)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in project-beta? (instance 2)', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 8)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 7)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 8)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in project-alpha? (instance 2)', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 7)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (instance 6)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 8)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 6)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 8)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across project-beta and services (instance 4)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 8)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in project-beta? (instance 3)', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 9)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (require logs and timestamps) (instance 2)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 9)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in infra-prod? (instance 3)', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 8)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (instance 7)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 9)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 7)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 9)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across project-alpha and services (require logs and timestamps) (instance 2)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 9)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in infra-prod?', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 10)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 8)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 10)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in finance-prod? (require logs and timestamps)', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 9)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (instance 8)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 10)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 8)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 10)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across finance-prod and services (instance 4)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 10)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in finance-prod? (instance 4)', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 11)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 9)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 11)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in finance-prod? (instance 3)', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 10)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (require logs and timestamps) (instance 3)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (instance 11)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 9)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 11)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across finance-prod and services (instance 5)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 11)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in project-beta? (require logs and timestamps)', intent: Intent.compliance_check}
+{query: 'Show devices with disabled logging or missing syslog forwarding (instance 12)', intent: Intent.audit_status}
+{query: 'List assets with outdated OS versions failing policy (instance 10)', intent: Intent.vulnerability_management}
+{query: 'Report on password policy compliance across device groups (instance 12)', intent: Intent.compliance_check}
+{query: 'Which firewall rules are overly permissive (0.0.0.0/0) in project-alpha? (instance 3)', intent: Intent.policy_audit}
+{query: 'Provide remediation backlog for high severity vulnerabilities (instance 11)', intent: Intent.vulnerability_management}
+{query: 'Confirm configuration backup cadence compliance for network devices (instance 9)', intent: Intent.audit_status}
+{query: 'Show devices non-compliant with baseline in the last audit window (require logs and timestamps) (instance 2)', intent: Intent.compliance_check}
+{query: 'List servers missing critical patches older than 30 days (instance 10)', intent: Intent.patch_compliance}
+{query: 'Which VMs have weak SSH ciphers or legacy protocols enabled? (instance 12)', intent: Intent.compliance_check}
+{query: 'Audit expired certificates across infra-prod and services (instance 2)', intent: Intent.certificate_audit}
+{query: 'Provide CIS benchmark deviations for hosts in {region} (instance 12)', intent: Intent.compliance_check}
+{query: 'Which accounts lack MFA enforcement in finance-prod? (require logs and timestamps)', intent: Intent.compliance_check}

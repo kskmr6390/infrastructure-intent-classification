@@ -1,0 +1,155 @@
+# Intent Classification System Configuration
+
+# Data Configuration
+data:
+  dataset_path: "ml/data/raw/infra_copilot_intent_dataset_v2.jsonl"
+  train_test_split: 0.8
+  validation_split: 0.1
+  random_seed: 42
+  min_samples_per_intent: 2
+
+# Model Configuration
+model:
+  # Options: 'tfidf_svm', 'tfidf_rf', 'ensemble', 'llm', 'hybrid'
+  type: "llm"
+  
+  # Model Router Configuration
+  router:
+    use_llm: true                    # Enable/disable LLM
+    fallback_to_traditional: true     # Use traditional model if LLM fails
+    confidence_threshold: 0.7          # Use LLM only if traditional model confidence < threshold
+    hybrid_mode: false                 # Combine both models for prediction
+  
+  # TF-IDF Configuration
+  tfidf:
+    max_features: 5000
+    ngram_range: [1, 3]
+    min_df: 1
+    max_df: 0.95
+    use_idf: true
+    sublinear_tf: true
+  
+  # SVM Configuration
+  svm:
+    kernel: "linear"
+    C: 10.0
+    probability: true
+    class_weight: "balanced"
+  
+  # Probability Calibration
+  calibration:
+    enabled: true
+    method: "sigmoid"  # Options: sigmoid, isotonic
+    cv: 3
+  
+  # Random Forest Configuration
+  random_forest:
+    n_estimators: 200
+    max_depth: 50
+    min_samples_split: 2
+    min_samples_leaf: 1
+    class_weight: "balanced"
+  
+  # LLM Configuration
+  llm:
+    # Model Selection - Choose from:
+    # "microsoft/phi-2" (2.7B) - Very capable, still small
+    # "TinyLlama/TinyLlama-1.1B-Chat-v1.0" (1.1B) - Fastest
+    # "distilbert-base-uncased" (66M) - Lightest, classification only
+    # "sentence-transformers/all-MiniLM-L6-v2" (22M) - Embeddings based
+    model_name: "sentence-transformers/all-MiniLM-L6-v2"
+    
+    # Alternative models to try:
+    # model_name: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"  # For chat-based
+    # model_name: "distilbert-base-uncased"              # For pure classification
+    
+    max_length: 128
+    batch_size: 16
+    device: "cpu"                      # Options: "cpu", "cuda", "mps" (for Mac)
+    use_quantization: false            # 8-bit quantization to save memory
+    
+    # Training parameters
+    learning_rate: 2e-5
+    epochs: 10
+    warmup_steps: 100
+    
+    # Inference parameters
+    temperature: 0.1                   # Lower = more confident predictions
+    top_k: 3
+    use_prompt: true                   # Use prompt-based classification
+    
+    # Prompt template
+    prompt_template: |
+      Classify the following network infrastructure query into one of these intents:
+      {intent_list}
+      
+      Query: {query}
+      
+      Intent:
+
+# Training Configuration
+training:
+  cross_validation_folds: 3
+  early_stopping_patience: 3
+  save_best_model: true
+  model_save_path: "ml/model/saved_models/"
+  
+# Self-Learning Configuration
+self_learning:
+  enabled: true
+  uncertainty_threshold: 0.7
+  confidence_threshold: 0.85
+  min_samples_for_retrain: 10
+  auto_retrain: true
+  feedback_storage_path: "ml/data/feedback/"
+  active_learning_strategy: "uncertainty_sampling"  # Options: uncertainty_sampling, margin_sampling, entropy_sampling
+
+# Evaluation Configuration
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1_score
+    - confusion_matrix
+  per_class_metrics: true
+  save_evaluation_report: true
+  report_path: "visualizations/"
+
+# Inference Configuration
+inference:
+  return_top_k: 3
+  include_confidence: true
+  min_confidence_threshold: 0.6            # Minimum confidence to accept prediction
+  out_of_scope_threshold: 0.5              # Below this = likely out of scope
+  strict_infrastructure_only: true         # Only predict infrastructure-related intents
+  rejection_message: "I'm specialized in network infrastructure queries. Your question doesn't seem related to infrastructure monitoring, configuration, or troubleshooting. Please ask about network status, device configuration, security alerts, performance metrics, or similar infrastructure topics."
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  log_file: "logs/intent_classification.log"
+  console_output: true
+
+# Observability Configuration
+observability:
+  # Local Observability (stores everything locally)
+  local_observability:
+    enabled: true                            # Enable/disable local observability
+    storage_path: "observability_data"       # Local storage directory
+    database_name: "observability.db"        # SQLite database name
+    log_predictions: true                    # Log all predictions
+    log_feedback: true                       # Log user feedback
+    retention_days: 90                       # Keep data for 90 days
+    export_enabled: true                     # Allow data export
+  
+  # LangSmith (cloud-based observability - optional)
+  langsmith:
+    enabled: false                           # Enable/disable LangSmith tracing (requires API key)
+    project_name: "intent-classification"    # LangSmith project name
+    # API key should be set in .env as LANGCHAIN_API_KEY
+    tracing_v2: true                         # Enable tracing v2
+    endpoint: "https://api.smith.langchain.com"
+    log_predictions: true                    # Log all predictions
+    log_feedback: true                       # Log user feedback
+    sample_rate: 1.0                         # Sample rate (0.0-1.0, 1.0 = log everything)

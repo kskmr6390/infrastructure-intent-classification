@@ -1,0 +1,100 @@
+{query: 'Is the interface Gig0/1 on edge-router ER1 up and operational?', intent: INTENT.NETWORK_STATUS_CHECK}
+{query: 'Why is latency between HQ and branch2 spiking during business hours?', intent: INTENT.LATENCY_ANALYSIS}
+{query: 'Show top 10 IPs consuming bandwidth on VLAN 480 over the last 48 hours.', intent: INTENT.TRAFFIC_ANALYSIS}
+{query: 'Which interfaces have CRC or FCS errors above threshold on MPLS gateway?', intent: INTENT.INTERFACE_ERRORS}
+{query: 'Show running configuration snippets related to BGP on core-switch SW1.', intent: INTENT.CONFIGURATION_QUERY}
+{query: 'Who modified the ACL rules affecting port 8080 on MPLS gateway in the last 14 days?', intent: INTENT.CONFIG_CHANGE_REQUEST}
+{query: 'Investigate why throughput dropped on link Vlan10 after the maintenance window.', intent: INTENT.THROUGHPUT_DROP}
+{query: 'Check BGP session with neighbor 192.0.2.175 and list recent flaps.', intent: INTENT.ROUTING_ISSUE}
+{query: 'Search syslog for repeated authentication failures for user alice in the last 48 hours.', intent: INTENT.log_analysis}
+{query: 'Show current CPU and memory utilization for core-switch SW1 and historical trend for 1 hours.', intent: INTENT.device_status_check}
+{query: 'Which circuits (e.g., CIR-629) have flapped more than 5 times in 24 hours?', intent: INTENT.link_flap_diagnosis}
+{query: 'Generate a report of firewall rule hits for the last 1 days and highlight unused rules.', intent: INTENT.policy_audit}
+{query: 'Is the HA pair for cluster FW-CLUSTER-7 currently synchronized and healthy?', intent: INTENT.ha_status_check}
+{query: 'List devices running firmware older than v10.7 and missing critical patches.', intent: INTENT.compliance_check}
+{query: 'Can the monitoring server reach router R2 via SSH and SNMP from DC1?', intent: INTENT.device_connectivity}
+{query: 'Which user accounts had failed TACACS+ logins more than 10 times in the last 24 hours?', intent: INTENT.user_access_issue}
+{query: 'Show current status and latency of IPsec tunnels to branch1.', intent: INTENT.vpn_status_check}
+{query: 'Correlate logs and metrics to find root cause of outage observed at 18:30.', intent: INTENT.root_cause_investigation}
+{query: 'Find IDS/IPS alerts related to IP 8.8.8.8 and list top offenders in last 7 days.', intent: INTENT.security_alert_investigation}
+{query: 'Show link utilization for WAN circuits and compare against committed rates over last 1 hours.', intent: INTENT.bandwidth_monitoring}
+{query: 'Is the interface Gi1/0/1 on edge-router ER1 up and operational?', intent: INTENT.network_status_check}
+{query: 'Why is latency between remote-site and DC1 spiking during business hours?', intent: INTENT.latency_analysis}
+{query: 'Show top 10 IPs consuming bandwidth on VLAN 426 over the last 48 hours.', intent: INTENT.traffic_analysis}
+{query: 'Which interfaces have CRC or FCS errors above threshold on router R1?', intent: INTENT.interface_errors}
+{query: 'Show running configuration snippets related to BGP on MPLS gateway.', intent: INTENT.configuration_query}
+{query: 'Who modified the ACL rules affecting port 3306 on switch SW3 in the last 7 days?', intent: INTENT.config_change_request}
+{query: 'Investigate why throughput dropped on link TenGig1/1/1 after the maintenance window.', intent: INTENT.throughput_drop}
+{query: 'Check BGP session with neighbor 192.0.2.158 and list recent flaps.', intent: INTENT.routing_issue}
+{query: 'Search syslog for repeated authentication failures for user admin in the last 24 hours.', intent: INTENT.log_analysis}
+{query: 'Show current CPU and memory utilization for MPLS gateway and historical trend for 1 hours.', intent: INTENT.device_status_check}
+{query: 'Which circuits (e.g., CIR-968) have flapped more than 5 times in 24 hours?', intent: INTENT.link_flap_diagnosis}
+{query: 'Generate a report of firewall rule hits for the last 14 days and highlight unused rules.', intent: INTENT.policy_audit}
+{query: 'Is the HA pair for cluster FW-CLUSTER-7 currently synchronized and healthy?', intent: INTENT.ha_status_check}
+{query: 'List devices running firmware older than v12.8 and missing critical patches.', intent: INTENT.compliance_check}
+{query: 'Can the monitoring server reach edge-router ER1 via SSH and SNMP from remote-site?', intent: INTENT.device_connectivity}
+{query: 'Which user accounts had failed TACACS+ logins more than 10 times in the last 48 hours?', intent: INTENT.user_access_issue}
+{query: 'Show current status and latency of IPsec tunnels to remote-site.', intent: INTENT.vpn_status_check}
+{query: 'Correlate logs and metrics to find root cause of outage observed at 03:15.', intent: INTENT.root_cause_investigation}
+{query: 'Find IDS/IPS alerts related to IP 10.1.1.5 and list top offenders in last 14 days.', intent: INTENT.security_alert_investigation}
+{query: 'Show link utilization for WAN circuits and compare against committed rates over last 1 hours.', intent: INTENT.bandwidth_monitoring}
+{query: 'Is the interface eth0 on edge-router ER1 up and operational?', intent: INTENT.network_status_check}
+{query: 'Why is latency between remote-site and DC1 spiking during business hours?', intent: INTENT.latency_analysis}
+{query: 'Show top 10 IPs consuming bandwidth on VLAN 256 over the last 6 hours.', intent: INTENT.traffic_analysis}
+{query: 'Which interfaces have CRC or FCS errors above threshold on router R2?', intent: INTENT.interface_errors}
+{query: 'Show running configuration snippets related to BGP on core-switch SW1.', intent: INTENT.configuration_query}
+{query: 'Who modified the ACL rules affecting port 80 on core-switch SW1 in the last 1 days?', intent: INTENT.config_change_request}
+{query: 'Investigate why throughput dropped on link TenGig1/1/1 after the maintenance window.', intent: INTENT.throughput_drop}
+{query: 'Check BGP session with neighbor 192.0.2.203 and list recent flaps.', intent: INTENT.routing_issue}
+{query: 'Search syslog for repeated authentication failures for user netops in the last 24 hours.', intent: INTENT.log_analysis}
+{query: 'Show current CPU and memory utilization for router R1 and historical trend for 3 hours.', intent: INTENT.device_status_check}
+{query: 'Which circuits (e.g., CIR-227) have flapped more than 5 times in 24 hours?', intent: INTENT.link_flap_diagnosis}
+{query: 'Generate a report of firewall rule hits for the last 7 days and highlight unused rules.', intent: INTENT.policy_audit}
+{query: 'Is the HA pair for cluster FW-CLUSTER-7 currently synchronized and healthy?', intent: INTENT.ha_status_check}
+{query: 'List devices running firmware older than v11.1 and missing critical patches.', intent: INTENT.compliance_check}
+{query: 'Can the monitoring server reach MPLS gateway via SSH and SNMP from remote-site?', intent: INTENT.device_connectivity}
+{query: 'Which user accounts had failed TACACS+ logins more than 10 times in the last 24 hours?', intent: INTENT.user_access_issue}
+{query: 'Show current status and latency of IPsec tunnels to HQ.', intent: INTENT.vpn_status_check}
+{query: 'Correlate logs and metrics to find root cause of outage observed at 18:30.', intent: INTENT.root_cause_investigation}
+{query: 'Find IDS/IPS alerts related to IP 172.16.0.10 and list top offenders in last 3 days.', intent: INTENT.security_alert_investigation}
+{query: 'Show link utilization for WAN circuits and compare against committed rates over last 48 hours.', intent: INTENT.bandwidth_monitoring}
+{query: 'Is the interface Gi1/0/1 on MPLS gateway up and operational?', intent: INTENT.network_status_check}
+{query: 'Why is latency between HQ and remote-site spiking during business hours?', intent: INTENT.latency_analysis}
+{query: 'Show top 10 IPs consuming bandwidth on VLAN 607 over the last 12 hours.', intent: INTENT.traffic_analysis}
+{query: 'Which interfaces have CRC or FCS errors above threshold on edge-router ER1?', intent: INTENT.interface_errors}
+{query: 'Show running configuration snippets related to BGP on MPLS gateway.', intent: INTENT.configuration_query}
+{query: 'Who modified the ACL rules affecting port 22 on MPLS gateway in the last 3 days?', intent: INTENT.config_change_request}
+{query: 'Investigate why throughput dropped on link Gi1/0/1 after the maintenance window.', intent: INTENT.throughput_drop}
+{query: 'Check BGP session with neighbor 192.0.2.94 and list recent flaps.', intent: INTENT.routing_issue}
+{query: 'Search syslog for repeated authentication failures for user netops in the last 6 hours.', intent: INTENT.log_analysis}
+{query: 'Show current CPU and memory utilization for router R1 and historical trend for 1 hours.', intent: INTENT.device_status_check}
+{query: 'Which circuits (e.g., CIR-201) have flapped more than 5 times in 24 hours?', intent: INTENT.link_flap_diagnosis}
+{query: 'Generate a report of firewall rule hits for the last 3 days and highlight unused rules.', intent: INTENT.policy_audit}
+{query: 'Is the HA pair for cluster FW-CLUSTER-3 currently synchronized and healthy?', intent: INTENT.ha_status_check}
+{query: 'List devices running firmware older than v12.8 and missing critical patches.', intent: INTENT.compliance_check}
+{query: 'Can the monitoring server reach router R1 via SSH and SNMP from DC1?', intent: INTENT.device_connectivity}
+{query: 'Which user accounts had failed TACACS+ logins more than 10 times in the last 1 hours?', intent: INTENT.user_access_issue}
+{query: 'Show current status and latency of IPsec tunnels to branch2.', intent: INTENT.vpn_status_check}
+{query: 'Correlate logs and metrics to find root cause of outage observed at 03:15.', intent: INTENT.root_cause_investigation}
+{query: 'Find IDS/IPS alerts related to IP 172.16.0.10 and list top offenders in last 7 days.', intent: INTENT.security_alert_investigation}
+{query: 'Show link utilization for WAN circuits and compare against committed rates over last 3 hours.', intent: INTENT.bandwidth_monitoring}
+{query: 'Is the interface Vlan10 on edge-router ER1 up and operational?', intent: INTENT.network_status_check}
+{query: 'Why is latency between HQ and branch1 spiking during business hours?', intent: INTENT.latency_analysis}
+{query: 'Show top 10 IPs consuming bandwidth on VLAN 631 over the last 24 hours.', intent: INTENT.traffic_analysis}
+{query: 'Which interfaces have CRC or FCS errors above threshold on firewall FW1?', intent: INTENT.interface_errors}
+{query: 'Show running configuration snippets related to BGP on core-switch SW1.', intent: INTENT.configuration_query}
+{query: 'Who modified the ACL rules affecting port 443 on firewall FW1 in the last 1 days?', intent: INTENT.config_change_request}
+{query: 'Investigate why throughput dropped on link Gig0/1 after the maintenance window.', intent: INTENT.throughput_drop}
+{query: 'Check BGP session with neighbor 192.0.2.51 and list recent flaps.', intent: INTENT.routing_issue}
+{query: 'Search syslog for repeated authentication failures for user alice in the last 1 hours.', intent: INTENT.log_analysis}
+{query: 'Show current CPU and memory utilization for firewall FW1 and historical trend for 24 hours.', intent: INTENT.device_status_check}
+{query: 'Which circuits (e.g., CIR-353) have flapped more than 5 times in 24 hours?', intent: INTENT.link_flap_diagnosis}
+{query: 'Generate a report of firewall rule hits for the last 7 days and highlight unused rules.', intent: INTENT.policy_audit}
+{query: 'Is the HA pair for cluster FW-CLUSTER-9 currently synchronized and healthy?', intent: INTENT.ha_status_check}
+{query: 'List devices running firmware older than v8.1 and missing critical patches.', intent: INTENT.compliance_check}
+{query: 'Can the monitoring server reach core-switch SW1 via SSH and SNMP from remote-site?', intent: INTENT.device_connectivity}
+{query: 'Which user accounts had failed TACACS+ logins more than 10 times in the last 48 hours?', intent: INTENT.user_access_issue}
+{query: 'Show current status and latency of IPsec tunnels to branch2.', intent: INTENT.vpn_status_check}
+{query: 'Correlate logs and metrics to find root cause of outage observed at 03:15.', intent: INTENT.root_cause_investigation}
+{query: 'Find IDS/IPS alerts related to IP 8.8.8.8 and list top offenders in last 14 days.', intent: INTENT.security_alert_investigation}
+{query: 'Show link utilization for WAN circuits and compare against committed rates over last 3 hours.', intent: INTENT.bandwidth_monitoring}

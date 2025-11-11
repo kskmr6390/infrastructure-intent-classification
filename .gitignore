@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML Models
+ml/model/saved_models/*.pkl
+ml/model/saved_models/*.pth
+ml/model/saved_models/*.h5
+
+# Data
+ml/data/processed/*.jsonl
+ml/data/feedback/*.jsonl
+feedback_data/
+
+# Observability Data (local storage)
+observability_data/
+
+# Visualizations
+visualizations/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+docker-compose.override.yml
+
+# Temporary
+*.tmp
+*.bak
+*.backup
+~*
+

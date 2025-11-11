@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  intent-classification:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: intent-classification-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount directories for persistence
+      - ./ml/model/saved_models:/app/ml/model/saved_models
+      - ./ml/data:/app/ml/data
+      - ./backend/database:/app/backend/database
+      - ./logs:/app/logs
+    environment:
+      - DEBUG=false
+      - HOST=0.0.0.0
+      - PORT=8000
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
