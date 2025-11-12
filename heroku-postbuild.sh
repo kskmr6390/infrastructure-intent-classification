@@ -10,6 +10,10 @@ mkdir -p ml/data/feedback
 mkdir -p backend/database
 mkdir -p logs
 mkdir -p observability_data
+mkdir -p frontend/static/css
+mkdir -p frontend/static/js
+mkdir -p frontend/templates
+mkdir -p guides
 
 # Check if models exist
 if [ ! -f ml/model/saved_models/*.pkl ] && [ ! -f ml/model/saved_models/*.pth ]; then

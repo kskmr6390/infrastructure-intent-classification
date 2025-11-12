@@ -1,22 +1,19 @@
 # Files to exclude from Heroku slug to reduce size
 
-# Documentation
+# Documentation (exclude .md files except in guides/ which is served by the app)
 *.md
 !README.md
+!guides/*.md
 docs/
-guides/
+# guides/ directory is NEEDED by the app for web UI
 
 # Tests
 tests/
 test_*.py
 *_test.py
 
-# Visualizations
+# Visualizations (not needed in production)
 visualizations/
-*.png
-*.jpg
-*.jpeg
-*.gif
 
 # Development files
 .vscode/
