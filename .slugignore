@@ -45,9 +45,10 @@ Dockerfile
 docker-compose.yml
 .dockerignore
 
-# Large data files (keep only essential datasets)
+# Large data files (keep only v2 - used by config.yaml)
 ml/data/raw/infra_copilot_intent_dataset_v1_1.jsonl
 ml/data/raw/infra_copilot_intent_dataset_v3.jsonl
+# Keep: infra_copilot_intent_dataset_v2.jsonl (needed for model initialization)
 
 # Feedback data (will be written at runtime)
 ml/data/feedback/*.jsonl
