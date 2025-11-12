@@ -1,10 +1,14 @@
-# Production Requirements (Lightweight for Heroku)
-# For full dev requirements with PyTorch/LLM support, see requirements-dev.txt
+# Production Requirements for Heroku (LLM with CPU-only PyTorch)
 
-# Core ML Libraries (lightweight)
+# Core ML Libraries
 scikit-learn>=1.3.0
 numpy>=1.26.0
 pandas>=2.0.0
+
+# LLM Support - CPU-only PyTorch (smaller slug)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+sentence-transformers>=2.2.0
 
 # Data Processing
 nltk>=3.8
@@ -35,10 +39,3 @@ python-dotenv>=1.0.0
 # Observability
 langsmith>=0.0.87
 langchain>=0.1.0
-
-# NOTE: Heavy dependencies excluded for Heroku (500MB slug limit):
-# - torch (700MB-2GB+) - not needed for traditional ML inference
-# - transformers (large) - not needed for traditional ML inference
-# - sentence-transformers (large) - not needed for traditional ML inference
-# - matplotlib (not needed in production)
-# - seaborn (not needed in production)

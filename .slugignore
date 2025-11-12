@@ -56,15 +56,12 @@ ml/data/feedback/*.jsonl
 # Processed data (can be regenerated)
 ml/data/processed/
 
-# Saved models - ONLY exclude LLM models (huge), keep traditional ML models (small)
-ml/model/saved_models/llm_*
+# Saved models - Keep all .pkl models (they're small)
+# Exclude only large PyTorch .pth files
+ml/model/saved_models/*.pth
+ml/model/saved_models/*.h5
 ml/llm/__pycache__/
 ml/traditional_ml/__pycache__/
-
-# Keep these small traditional ML models (they're needed for inference):
-# - tfidf_svm_model_*.pkl (~90-310KB)
-# - intent_mapping_*.pkl (~1KB)
-# - label_encoder_*.pkl (~1KB)
 
 # Logs
 logs/
