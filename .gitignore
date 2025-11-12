@@ -27,10 +27,15 @@ logs/
 *.sqlite
 *.sqlite3
 
-# ML Models
-ml/model/saved_models/*.pkl
+# ML Models - Only exclude LLM models (large), allow traditional ML models (small)
+ml/model/saved_models/llm_*.pkl
 ml/model/saved_models/*.pth
 ml/model/saved_models/*.h5
+
+# Allow traditional ML models (they're small and needed for deployment)
+!ml/model/saved_models/tfidf_*.pkl
+!ml/model/saved_models/intent_mapping_*.pkl
+!ml/model/saved_models/label_encoder_*.pkl
 
 # Data
 ml/data/processed/*.jsonl
